@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAV PUBLIC SCHOOL : CBSE</title>
+    <style>
+      h1 {
+        color: rgb(40, 38, 38);
+        background-color: rgb(28, 161, 214);
+      }
+      form {
+        background-color: lightblue;
+      }
+      button {
+        cursor: pointer;
+        align-items: center;
+        border: 3px solid black;
+        border-radius: 30px;
+        transition: 1s;
+        position: absolute;
+        bottom: -257px;
+        height: 24px;
+        width: 86px;
+      }
+      button:hover {
+        background-color: lightblue;
+      }
+
+      span {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .address {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      #textarea1 {
+        position: absolute;
+        bottom: 4em;
+        right: 9em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I. Aplicant's Information:----</h1>
+    <form action="form for admission ">
+      <span>1.Name of student:</span>
+      <input type="text" name="first name" placeholder="Frist Name" />
+      <input type="text" name="middle name" placeholder="Middle name" />
+      <input type="text" name="last name" placeholder="Last name" /> <br />
+      <br />
+      <span>2.Class:</span>
+      <select name="class" name="class" id="class">
+        <option value="class" name="-select-">-select-</option>
+        <option value="class" name="10th">10th</option>
+        <option value="class" name="11th">11th</option>
+        <option value="class" name="12th">12th</option>
+      </select>
+      <br />
+      <br />
+      <span>3.Date of birth: <input type="date" name="date" id="" /> </span>
+      <br /><br />
+      <span>4.Select Gender:</span>
+      <select name="select gender" id="Hello">
+        <option value="select gender" name="-selct-">-select-</option>
+        <option value="select gender" name="Male">Male</option>
+        <option value="select gender" name="Female">Female</option>
+        <option value="select gender" name="Others">Others</option>
+      </select>
+      <br />
+      <br />
+      <span>5.Adhar no. : <input type="tel" name="adhar no." id="" /></span>
+      <br />
+      <br />
+      <span>6.Age: <input type="tel" name="age" id="" /> </span> <br /><br />
+      <span>7.Mother Tongue</span>
+      <select name="mother Tongue" id="tongue">
+        <option value="mother tongue" name="-selct-">-select-</option>
+        <option value="mother tongue" name="Hindi">Hindi</option>
+        <option value="mother tongue" name="English">English</option>
+      </select>
+      <br />
+      <br />
+      <span>8.Nationality: <input type="text" name="Nationality" /> </span>
+      <br />
+      <br />
+      <span
+        >9.Caste:
+        <label for="">
+          <input type="radio" name="Caste" value="zero" id="BC I" /> BC I</label
+        >
+        <label for=""
+          ><input type="radio" value="frist" name="Caste" id="BC II" />BC
+          II</label
+        >
+        <label for=""
+          ><input type="radio" value="second" name="Caste" id="OBC" />OBC</label
+        >
+        <label for=""
+          ><input type="radio" value="third" name="Caste" id="SC" />SC</label
+        >
+        <label for=""
+          ><input type="radio" value="fourth" name="Caste" id="ST" />ST</label
+        >
+        <label for=""
+          ><input type="radio" value="fifth" name="Caste" id="EWS" />EWS</label
+        ></span
+      >
+      <h1>II. Parent's Information:----</h1>
+      <span>1.Father's Name:<input type="text" placeholder="Enter" /></span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span>Mother's Name:<input type="text" placeholder="Enter" /></span>
+      <br />
+      <br />
+      <span
+        >2.Father's Qualification: <input type="text" placeholder="Enter"
+      /></span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span>Mother's Qualification: <input type="text" /></span> <br />
+      <br />
+      <span>3.Father's Mobile: <input type="tel" /></span>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <span
+        >Mother's Mobile: <input type="tel" name="Father mobile no." id=""
+      /></span>
+      <br />
+      <br />
+      <span
+        >4.Father's email:
+        <input type="email" placeholder="eg.dav2245@gmail.com"
+      /></span>
+      <br /><br />
+      <div class="address">5.Temporary address:</div>
+
+      <textarea
+        name="Temporary address"
+        id="ta"
+        cols="50"
+        rows="10"
+        placeholder="Enter address1"
+      ></textarea>
+
+      <br />
+      <br />
+      <div class="address">6.Permanent address:</div>
+
+      <textarea
+        name="Permanent address"
+        id="pa"
+        cols="50"
+        rows="10"
+        placeholder="Enter address2"
+      ></textarea>
+
+      <br /><br />
+
+      <center><button>SUBMIT</button></center>
+    </form>
+  </body>
+</html>
